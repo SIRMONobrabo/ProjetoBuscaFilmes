@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    background-color: #e5e5e5; /* Lighter, more neutral gray */
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+main {
+    padding: 5%;
+}
+
+h1 {
+    font-size: 50px; /* Adjusted font size for better readability */
+    color: #333; /* Darker header color for better contrast */
+}
+
+section input {
+    width: 400px; /* Reduced width for a more compact layout */
+    height: 40px; /* Reduced height for a more compact layout */
+    padding-left: 25px; 
+    border-radius: 10px; /* Slightly reduced border radius for a more modern look */
+    border: 1px solid #ccc; /* Added a subtle border for visual clarity */
+}
+
+section button {
+    margin-top: 10px; /* Reduced margin for a more compact layout */
+    height: 35px; /* Slightly increased height for a more prominent button */
+    width: 120px; /* Slightly increased width for a more prominent button */
+    background-color: #265485; /* Blue color for a more modern look */
+    color: #fff;
+    cursor: pointer; /* Added cursor style to indicate clickability */
+    border: 0;
+    border-radius: 25px;
+}
+
+.resultado-pesquisa {
+    margin: 5% 0 ;
+    text-align: left;  
+    overflow-y: auto;
+   height: 500px;
+}
+
+.resultado{ 
+    padding: 25px;
+    background-color: #ccc;
+}
+
+.nota-resultado{
+    font-weight: 700;
+    color: #265485;
+}
+
+footer {
+    background-color: #333; /* Darker background for a more prominent footer */
+    padding: 2%;
+    color: #fff; /* White text for better contrast */
+}
+
+p {
+    margin-top: 35px;
+}
+
+a{
+    color: #333;
+}
+
+footer a {
+    color: #fff; /* White link color for better contrast */
+    text-decoration: none;
+}
